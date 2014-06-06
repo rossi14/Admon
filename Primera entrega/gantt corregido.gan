@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-03-17" view-index="0" gantt-divider-location="828" resource-divider-location="300" version="2.0" locale="es">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="50" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="2" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="24" order="2"/>
+        <field id="tpd10" name="ID" width="22" order="3"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Inicialización del proyecto" color="#33cc00" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2014-03-27" duration="6" complete="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <task id="0" name="Analisis de la problematica" meeting="false" start="2014-03-27" duration="2" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Documentación (Analisis de la problematica))" meeting="false" start="2014-03-31" duration="2" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Definir objetivos" meeting="false" start="2014-03-31" duration="1" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Documentación (Definir objetivos y alcance de objetivos)" meeting="false" start="2014-04-02" duration="1" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Revisar metodologia a usar" meeting="false" start="2014-03-31" duration="1" complete="0" expand="true"/>
+            <task id="5" name="Dividir el sistema en modulos (Establecer hitos))" meeting="false" start="2014-04-01" duration="1" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" name="Analizar el equipo de trabajo para dividir actividades" meeting="false" start="2014-04-02" duration="1" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Definir medios de comunicacón" meeting="false" start="2014-04-02" duration="1" complete="0" expand="true"/>
+            <task id="9" name="Verificar las características de los equipos" meeting="false" start="2014-03-27" duration="1" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Dar mantenimiento a los equipos" meeting="false" start="2014-03-28" duration="3" complete="0" expand="true"/>
+            <task id="12" name="Enlistar los riesgos y soluciones (Documentación))" meeting="false" start="2014-04-03" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="34" name="Realizar respaldos" meeting="false" start="2014-04-04" duration="1" complete="0" expand="true"/>
+        <task id="57" name="Hito 1" color="#ff0000" meeting="true" start="2014-04-04" duration="0" complete="0" expand="true"/>
+        <task id="27" name="Iniciacion de prototipos rapidos" color="#cccc00" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2014-04-04" duration="25" complete="0" expand="true">
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+            <depend id="123" type="2" difference="0" hardness="Strong"/>
+            <depend id="146" type="2" difference="0" hardness="Strong"/>
+            <task id="28" name="Realizar el prototipo rápido primera parte" meeting="false" start="2014-04-04" duration="6" complete="0" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" name="Verificar requerimientos con base al prototipo y reajuste de tiempos" meeting="false" start="2014-04-14" duration="6" complete="0" expand="true">
+                <depend id="92" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" name="Documentación Prototipo rápido (caso de uso, secuencia, robustez))" color="#8cb6ce" meeting="false" start="2014-04-04" duration="12" complete="0" expand="true">
+                <depend id="92" type="2" difference="0" hardness="Strong"/>
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="92" name="Realizar el prototipo rápido segunda parte" meeting="false" start="2014-04-22" duration="6" complete="0" expand="true">
+                <depend id="109" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="109" name="Verificar requerimientos con base al prototipo" meeting="false" start="2014-04-30" duration="6" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="95" name="Documentación Prototipo rápido (caso de uso, secuencia, robustez)" meeting="false" start="2014-04-22" duration="12" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Revisión de la etapa de iniciación de prototipos rápidos y reajuste de tiempos" color="#8cb6ce" meeting="false" start="2014-05-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="78" name="Hito 2" color="#ff0000" meeting="true" start="2014-04-11" duration="0" complete="0" expand="true"/>
+        <task id="81" name="Hito 3" color="#ff0000" meeting="true" start="2014-04-18" duration="0" complete="0" expand="true"/>
+        <task id="42" name="Realizar respaldos" meeting="false" start="2014-05-09" duration="1" complete="0" expand="true"/>
+        <task id="83" name="Hito 4" color="#ff0000" meeting="true" start="2014-04-25" duration="0" complete="0" expand="true"/>
+        <task id="117" name="Hito 5" color="#ff0000" meeting="true" start="2014-05-02" duration="0" complete="0" expand="true"/>
+        <task id="120" name="Hito 6" color="#ff0000" meeting="true" start="2014-05-09" duration="0" complete="0" expand="true"/>
+        <task id="123" name="Preparación del software y hardware" color="#00ccff" shape="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" meeting="false" start="2014-05-12" duration="6" complete="0" expand="true">
+            <depend id="171" type="2" difference="0" hardness="Strong"/>
+            <depend id="180" type="2" difference="0" hardness="Strong"/>
+            <task id="124" name="Curso de inducción sobre porgramación web" meeting="false" start="2014-05-12" duration="3" complete="0" expand="true">
+                <depend id="128" type="2" difference="0" hardness="Strong"/>
+                <depend id="134" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="128" name="Elección del entorno de programación" meeting="false" start="2014-05-15" duration="1" complete="0" expand="true">
+                <depend id="131" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="131" name="Instalación y configuración del entorno de programación" meeting="false" start="2014-05-16" duration="1" complete="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="134" name="Elección del manejador de base dedatos" meeting="false" start="2014-05-15" duration="1" complete="0" expand="true">
+                <depend id="137" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="137" name="Instalación y configuración del manejador de base de datos" meeting="false" start="2014-05-16" duration="1" complete="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="140" name="Documentación software y hardware" meeting="false" start="2014-05-12" duration="5" complete="0" expand="true">
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="142" name="Revisión del software y hardware a usar" color="#8cb6ce" meeting="false" start="2014-05-19" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="146" name="Creación de base de datos" color="#cc00cc" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2014-05-12" duration="7" complete="0" expand="true">
+            <depend id="171" type="2" difference="0" hardness="Strong"/>
+            <depend id="180" type="2" difference="0" hardness="Strong"/>
+            <task id="143" name="Configurar y montar servidores web" color="#8cb6ce" meeting="false" start="2014-05-12" duration="2" complete="0" expand="true">
+                <depend id="153" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="150" name="Diseñar y crear la base de datos" meeting="false" start="2014-05-12" duration="3" complete="0" expand="true">
+                <depend id="153" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="153" name="Montar la base de datos en el servidor" meeting="false" start="2014-05-15" duration="1" complete="0" expand="true">
+                <depend id="161" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="157" name="Creación de Base de Datos (Modelos ER y Relacional , requerimientos del servidor , Procesos para montar base de datos en el servidor )" meeting="false" start="2014-05-12" duration="4" complete="0" expand="true">
+                <depend id="161" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="161" name="Revisión del módulo de Creación de Base de Datos y reajuste de plan" meeting="false" start="2014-05-16" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="171" name="Realizar respaldos" meeting="false" start="2014-05-21" duration="1" complete="0" expand="true"/>
+        <task id="270" name="Hito 7" color="#ff0000" meeting="true" start="2014-05-16" duration="0" complete="0" expand="true"/>
+        <task id="180" name="Programación" color="#00ff66" meeting="false" start="2014-05-21" duration="35" complete="0" expand="true">
+            <depend id="249" type="2" difference="0" hardness="Strong"/>
+            <depend id="253" type="2" difference="0" hardness="Strong"/>
+            <task id="183" name="Programacion por modulos prototipos aceptados parte 1" meeting="false" start="2014-05-21" duration="6" complete="0" expand="true">
+                <depend id="185" type="2" difference="0" hardness="Strong"/>
+                <depend id="188" type="2" difference="0" hardness="Strong"/>
+                <depend id="191" type="2" difference="0" hardness="Strong"/>
+                <depend id="242" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="185" name="Revision Programación por modulos prototipos aceptados parte 1 y reajuste de plan" meeting="false" start="2014-05-29" duration="3" complete="0" expand="true"/>
+            <task id="188" name="Conexión a base de datos" meeting="false" start="2014-05-29" duration="1" complete="0" expand="true"/>
+            <task id="191" name="Pruebas de unidad 1" meeting="false" start="2014-05-29" duration="5" complete="0" expand="true">
+                <depend id="194" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="242" name="Documentación pruebas verificadas y corregidas 1" meeting="false" start="2014-05-29" duration="5" complete="0" expand="true"/>
+            <task id="194" name="Programacion por modulos prototipos aceptados parte 2" color="#8cb6ce" meeting="false" start="2014-06-05" duration="6" complete="0" expand="true">
+                <depend id="196" type="2" difference="0" hardness="Strong"/>
+                <depend id="198" type="2" difference="0" hardness="Strong"/>
+                <depend id="243" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="196" name="Revision Programación por modulos prototipos aceptados parte 2 y reajuste de plan" meeting="false" start="2014-06-13" duration="3" complete="0" expand="true"/>
+            <task id="198" name="Pruebas de unidad 2" meeting="false" start="2014-06-13" duration="5" complete="0" expand="true">
+                <depend id="212" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="243" name="Documentación pruebas verificadas y corregidas 2" meeting="false" start="2014-06-13" duration="5" complete="0" expand="true"/>
+            <task id="212" name="Programacion por modulos prototipos aceptados parte 3" color="#8cb6ce" meeting="false" start="2014-06-20" duration="5" complete="0" expand="true">
+                <depend id="213" type="2" difference="0" hardness="Strong"/>
+                <depend id="214" type="2" difference="0" hardness="Strong"/>
+                <depend id="245" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="213" name="Revision Programación por modulos prototipos aceptados parte 3 y reajuste de plan" color="#8cb6ce" meeting="false" start="2014-06-27" duration="4" complete="0" expand="true"/>
+            <task id="214" name="Pruebas de unidad 3" meeting="false" start="2014-06-27" duration="7" complete="0" expand="true">
+                <depend id="247" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="245" name="Documentación pruebas verificadas y corregidas 3" meeting="false" start="2014-06-27" duration="7" complete="0" expand="true">
+                <depend id="247" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="247" name="Revisión modulo programación" meeting="false" start="2014-07-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="271" name="Hito 8" color="#ff0000" meeting="true" start="2014-05-23" duration="0" complete="0" expand="true"/>
+        <task id="272" name="Hito 9" color="#ff0000" meeting="true" start="2014-05-30" duration="0" complete="0" expand="true"/>
+        <task id="273" name="Hito 10" color="#ff0000" meeting="true" start="2014-06-06" duration="0" complete="0" expand="true"/>
+        <task id="278" name="Hito 11" color="#ff0000" meeting="true" start="2014-06-13" duration="0" complete="0" expand="true"/>
+        <task id="279" name="Hito 12" color="#ff0000" meeting="true" start="2014-06-20" duration="0" complete="0" expand="true"/>
+        <task id="281" name="Hito 13" color="#ff0000" meeting="true" start="2014-06-27" duration="0" complete="0" expand="true"/>
+        <task id="283" name="Hito 14" color="#ff0000" meeting="true" start="2014-07-04" duration="0" complete="0" expand="true"/>
+        <task id="284" name="Hito 15" color="#ff0000" meeting="true" start="2014-07-11" duration="0" complete="0" expand="true"/>
+        <task id="287" name="Hito 16" color="#ff0000" meeting="true" start="2014-07-18" duration="0" complete="0" expand="true"/>
+        <task id="285" name="Hito 17" color="#ff0000" meeting="true" start="2014-07-25" duration="0" complete="0" expand="true"/>
+        <task id="293" name="Hito 18" color="#ff0000" meeting="true" start="2014-08-01" duration="0" complete="0" expand="true"/>
+        <task id="249" name="Realizar resplados" meeting="false" start="2014-07-09" duration="1" complete="0" expand="true"/>
+        <task id="253" name="Documentacióon final" color="#660066" meeting="false" start="2014-07-09" duration="19" complete="0" expand="true">
+            <depend id="261" type="2" difference="0" hardness="Strong"/>
+            <task id="251" name="Realizar pruebas de integración" color="#8cb6ce" meeting="false" start="2014-07-09" duration="7" complete="0" expand="true">
+                <depend id="259" type="2" difference="0" hardness="Strong"/>
+                <depend id="269" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="257" name="Realizar manual final d ela aplicación" meeting="false" start="2014-07-09" duration="10" complete="0" expand="true">
+                <depend id="259" type="2" difference="0" hardness="Strong"/>
+                <depend id="269" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="259" name="Conteo  de Gastos durante el proceso" meeting="false" start="2014-07-23" duration="2" complete="0" expand="true">
+                <depend id="263" type="2" difference="0" hardness="Strong"/>
+                <depend id="269" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="263" name="Documentación (Implementación de las nuevas  pruebas y anexo del manual)" meeting="false" start="2014-07-25" duration="3" complete="0" expand="true">
+                <depend id="269" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="269" name="Revisión etapa final y ajustes de plan" meeting="false" start="2014-07-30" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="261" name="Realizar respaldo" meeting="false" start="2014-08-05" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpc0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="411" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="18" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="195" visible="true"/>
+        <displaycolumn property-id="tpd10" order="3" width="185" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

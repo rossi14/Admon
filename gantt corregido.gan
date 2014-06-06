@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-04-14" view-index="0" gantt-divider-location="330" resource-divider-location="300" version="2.0" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-04-28" view-index="0" gantt-divider-location="330" resource-divider-location="300" version="2.0" locale="es">
     <description/>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="35" order="0"/>
@@ -109,22 +109,22 @@
         <task id="81" name="Hito 3" color="#ff0000" meeting="true" start="2014-04-25" duration="0" complete="0" expand="true"/>
         <task id="42" name="Realizar respaldos" meeting="false" start="2014-05-16" duration="1" complete="0" expand="true"/>
         <task id="83" name="Hito 4" color="#ff0000" meeting="true" start="2014-05-02" duration="0" complete="0" expand="true"/>
-        <task id="146" name="Creación de base de datos" color="#cc00cc" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2014-05-05" duration="16" complete="30" expand="true">
+        <task id="146" name="Creación de base de datos" color="#cc00cc" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2014-05-05" duration="16" complete="94" expand="true">
             <depend id="171" type="2" difference="0" hardness="Strong"/>
             <depend id="180" type="2" difference="0" hardness="Strong"/>
-            <task id="143" name="Configurar y montar servidores web" color="#8cb6ce" meeting="false" start="2014-05-16" duration="2" complete="0" expand="true">
+            <task id="143" name="Configurar y montar servidores web" color="#8cb6ce" meeting="false" start="2014-05-16" duration="2" complete="100" expand="true">
                 <depend id="153" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="150" name="Diseñar y crear la base de datos" meeting="false" start="2014-05-16" duration="3" complete="0" expand="true">
+            <task id="150" name="Diseñar y crear la base de datos" meeting="false" start="2014-05-16" duration="3" complete="100" expand="true">
                 <depend id="153" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="153" name="Montar la base de datos en el servidor" meeting="false" start="2014-05-21" duration="1" complete="0" expand="true">
+            <task id="153" name="Montar la base de datos en el servidor" meeting="false" start="2014-05-21" duration="1" complete="100" expand="true">
                 <depend id="161" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="157" name="Creación de Base de Datos (Modelos ER y Relacional , requerimientos del servidor , Procesos para montar base de datos en el servidor )" meeting="false" start="2014-05-16" duration="4" complete="0" expand="true">
+            <task id="157" name="Creación de Base de Datos (Modelos ER y Relacional , requerimientos del servidor , Procesos para montar base de datos en el servidor )" meeting="false" start="2014-05-16" duration="4" complete="100" expand="true">
                 <depend id="161" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="161" name="Revisión del módulo de Creación de Base de Datos y reajuste de plan" meeting="false" start="2014-05-22" duration="3" complete="0" expand="true"/>
+            <task id="161" name="Revisión del módulo de Creación de Base de Datos y reajuste de plan" meeting="false" start="2014-05-22" duration="3" complete="68" expand="true"/>
             <task id="296" name="Modelo Relacional" meeting="false" start="2014-05-05" duration="2" complete="100" expand="true"/>
             <task id="294" name="Diccionario de datos" meeting="false" start="2014-05-05" duration="2" complete="100" expand="true"/>
             <task id="295" name="Modelo E-R" meeting="false" start="2014-05-05" duration="2" complete="100" expand="true"/>
@@ -132,29 +132,29 @@
         <task id="297" name="Git hub (tutorial y documentación)" meeting="false" start="2014-05-05" duration="3" complete="100" expand="true"/>
         <task id="117" name="Hito 5" color="#ff0000" meeting="true" start="2014-05-09" duration="0" complete="0" expand="true"/>
         <task id="120" name="Hito 6" color="#ff0000" meeting="true" start="2014-05-16" duration="0" complete="0" expand="true"/>
-        <task id="123" name="Preparación del software y hardware" color="#00ccff" shape="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" meeting="false" start="2014-05-16" duration="6" complete="0" expand="true">
+        <task id="123" name="Preparación del software y hardware" color="#00ccff" shape="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1" meeting="false" start="2014-05-16" duration="6" complete="88" expand="true">
             <depend id="171" type="2" difference="0" hardness="Strong"/>
             <depend id="180" type="2" difference="0" hardness="Strong"/>
-            <task id="124" name="Curso de inducción sobre porgramación web" meeting="false" start="2014-05-16" duration="3" complete="0" expand="true">
+            <task id="124" name="Curso de inducción sobre porgramación web" meeting="false" start="2014-05-16" duration="3" complete="100" expand="true">
                 <depend id="128" type="2" difference="0" hardness="Strong"/>
                 <depend id="134" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="128" name="Elección del entorno de programación" meeting="false" start="2014-05-21" duration="1" complete="0" expand="true">
+            <task id="128" name="Elección del entorno de programación" meeting="false" start="2014-05-21" duration="1" complete="100" expand="true">
                 <depend id="131" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="131" name="Instalación y configuración del entorno de programación" meeting="false" start="2014-05-22" duration="1" complete="0" expand="true">
+            <task id="131" name="Instalación y configuración del entorno de programación" meeting="false" start="2014-05-22" duration="1" complete="53" expand="true">
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="134" name="Elección del manejador de base dedatos" meeting="false" start="2014-05-21" duration="1" complete="0" expand="true">
+            <task id="134" name="Elección del manejador de base dedatos" meeting="false" start="2014-05-21" duration="1" complete="100" expand="true">
                 <depend id="137" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="137" name="Instalación y configuración del manejador de base de datos" meeting="false" start="2014-05-22" duration="1" complete="0" expand="true">
+            <task id="137" name="Instalación y configuración del manejador de base de datos" meeting="false" start="2014-05-22" duration="1" complete="100" expand="true">
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="140" name="Documentación software y hardware" meeting="false" start="2014-05-16" duration="5" complete="0" expand="true">
+            <task id="140" name="Documentación software y hardware" meeting="false" start="2014-05-16" duration="5" complete="86" expand="true">
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="142" name="Revisión del software y hardware a usar" color="#8cb6ce" meeting="false" start="2014-05-23" duration="1" complete="0" expand="true"/>
+            <task id="142" name="Revisión del software y hardware a usar" color="#8cb6ce" meeting="false" start="2014-05-23" duration="1" complete="69" expand="true"/>
         </task>
         <task id="171" name="Realizar respaldos" meeting="false" start="2014-05-27" duration="1" complete="0" expand="true"/>
         <task id="180" name="Programación" color="#00ff66" meeting="false" start="2014-05-27" duration="35" complete="0" expand="true">
